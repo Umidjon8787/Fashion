@@ -1,0 +1,403 @@
+body
+	{
+        
+	}
+header
+	{   height: 14vh;
+	    width: 100vw;
+	    padding-top: 40px;
+	    border-bottom: 2px solid white;
+		font-family: Apple Chancery, cursive;
+		
+	}
+
+.logo
+	{   
+		height:3%;
+		padding-top: -20px;		
+		padding-left: 15%;
+
+	}
+.menu
+	{
+        
+        padding-left: 42%;
+	}
+#items-menu
+	{
+		margin-left: 2%;
+		text-decoration: none;
+		transition: 2s all ease-in;
+	}
+#i_1
+	{
+		margin-left: 5%;
+	}
+#items-menu:hover
+	{  
+		background-color: #d7c7d9;
+		color: black;
+        background-size: 90px;
+        text-decoration: none;
+	    box-shadow: 0 0 10px #c7d5d8, 0 0 40px #c7d5d8,0 0 80px #c7d5d8; 
+	    transition: 0.25s all ease;
+	    padding: 10px;
+	    box-shadow: 5px 5px 5px #f4db89;
+	    border-radius: 40%;
+	}
+#header_img
+	{   
+		width: 100%;
+		height: 50%;
+		margin-top: 2%;
+		margin-bottom: 7%;
+	}
+
+#text1
+	{   
+        text-transform: uppercase;
+       margin-top: -30%;
+       margin-left: 65%;
+       font-family: Apple Chancery, cursive;
+	}
+#text2
+	{
+		text-transform: uppercase;
+       margin-left: 64%;
+       font-family: Apple Chancery, cursive;
+       padding:7px; 
+       letter-spacing: 4px;
+	}
+#text3
+	{
+         font-family: Florence, cursive;
+         margin-left: 65%;
+           
+	}
+#button1
+	{
+		margin-left:67%;
+		margin-top: 3%; 
+		background-color: black;
+		color: white;
+		border-radius: 4px;
+		font-family: Florence, cursive;
+	}
+#button2
+	{
+		margin-left: 3%;
+		background-color: black;
+		color: white;
+		border-radius: 4px;
+		font-family: Florence, cursive;
+	}
+#button1:active
+	{
+        background-color:#d7cadc;
+        color: black;
+        box-shadow: 5PX 5PX #f1c553; 
+        transform: translateY(5px);
+	}
+#button2:active
+	{
+        background-color:#d7cadc;
+        color: black; 
+        box-shadow: 5PX 5PX #f1c553; 
+	     transform: translateY(5px);
+	}
+.page2
+	{
+		width: 70vh;
+		height: 60vh;
+		margin-top: 30vh;
+	}
+
+.l-t
+	{
+		position: absolute;
+		margin-left: 18%;
+   	}
+.l-b-l
+	{
+		position: absolute;
+		margin-left: 18%;
+		margin-top: 23%;
+	}
+
+.g_l_b_r
+	{
+		position: absolute;
+		margin-top: 23%;
+		margin-left: 36%;
+	}
+.d-right
+	{
+		position: absolute;
+		margin-left: 53%;
+		border-radius: 10% solid black;
+	}
+.b_text_women
+	{
+		margin-top: 20%;
+		text-align: center;
+		font-family: 'Nerko One', cursive;
+
+	}
+.text_women
+	{
+		margin-top: 1%;
+		margin-bottom: 2%;
+		text-align: center;
+		font-family: 'Nerko One', cursive;
+	}	
+.page3
+	{
+		background-color: #FEE9AF;/*#FEDBC3*/
+		padding-top: 12%;
+	}
+#w_f_img1
+	{
+		display: inline-block;
+		margin-top: -10%;
+		margin-left: 11%;
+		border-radius: 50%;
+		padding-left: 2%;
+	}
+#w_f_img2
+	{
+		display: inline-block;
+		margin-top: -10%;
+		
+	}
+#w_f_img3
+	{
+		display: inline-block;
+		margin-top: -10%;
+	}
+#w_f_img4
+	{
+		display: inline-block;
+		margin-top: -10%;
+	}
+#page3_border
+	{
+		border-radius: 50%;
+	}
+hr
+	{   
+		margin-left: -1%;
+		width: 80%;
+	}
+#text_decorate
+	{
+		margin-left: 10%;
+		font-family: 'Sansita Swashed', cursive;
+	}
+#h6
+	{
+		margin-left: 10%;
+		margin-top: -8%;
+		
+	}
+#h6 span
+	{
+		margin-left: 8%;
+		color: red;
+	}
+.big_text_men
+	{
+		margin-top: 10%;
+		text-align: center;
+		font-family: 'Nerko One', cursive;
+
+	}
+.text_men
+	{
+		margin-top: 1%;
+		margin-bottom: 2%;
+		text-align: center;
+		font-family: 'Nerko One', cursive;
+	}
+.page4
+	{
+		padding-top: 12%;
+		padding-bottom: 10%;
+	}
+#m_f_img1
+	{
+		display: inline-block;
+		margin-top: -10%;
+		margin-left: 11%;
+		padding-left: 2%;
+	}
+
+#m_f_img2
+	{
+		display: inline-block;
+		margin-top: -10%;
+		
+	}
+#m_f_img3
+	{
+		display: inline-block;
+		margin-top: -10%;
+	}
+#m_f_img4
+	{
+		display: inline-block;
+		margin-top: -10%;
+	}
+#page4_border
+	{
+		border-radius: 6%;
+	}
+hr
+	{   
+		margin-left: -1%;
+		width: 80%;
+	}
+#text_decorate2
+	{
+		margin-left: 3%;
+		font-family: 'Sansita Swashed', cursive;
+	}
+#h6
+	{
+		margin-left: 3%;
+		margin-top: -8%;
+		
+	}
+#h6 span
+	{
+		margin-left: 8%;
+		color: red;
+	}
+#page5_img
+	{   
+		width: 100%;
+		height: 50%;
+		margin-top: 2%;
+		margin-bottom: 7%;
+	}
+
+#text4
+	{   
+        text-transform: uppercase;
+       margin-top: -30%;
+       margin-left: 13%;
+       font-family: Apple Chancery, cursive;
+	}
+#text5
+	{
+		text-transform: uppercase;
+       margin-left: 13%;
+       font-family: Apple Chancery, cursive;
+       padding:7px; 
+       letter-spacing: 4px;
+	}
+#text6
+	{
+         font-family: Florence, cursive;
+         margin-left: 13%;
+           
+	}
+#button3
+	{
+		margin-left:13%;
+		margin-top: 3%; 
+		background-color: black;
+		color: white;
+		border-radius: 4px;
+		font-family: Florence, cursive;
+	}
+
+#button3:hover
+	{
+        background-color:white;
+        color: #004aec;
+        box-shadow: 5PX 5PX #36e24e; 
+        border-color:#004aec; 
+	}
+.FOOTER
+	{
+		margin-top: 20VH;
+		background-color: #f2f8fc;
+	
+	}
+.logo2
+	{   width: 30%;
+		height:3%;	
+		padding-left: 15%;
+		padding-right: -15%;
+	}
+#text_f
+	{ 
+	  margin-top: 1%;
+	  margin-left: 15%;
+	  margin-right: 5%;
+	  font-family: Florence, cursive;	
+	}
+#text_2
+	{
+		text-align: center;
+		font-family: Florence, cursive;
+	} 
+
+.fa-map-marker
+	{   
+		margin-top: -3%;
+        margin-left: 0%;
+	}
+#i_2
+	{
+		margin-left: 1%;
+	}
+#f_text3
+	{ 
+		background-color:#f2f8fc;
+		margin-left: 65%; 
+		margin-top:-19%;
+		padding-bottom: 15%;
+		font-size: 120%;
+		font-family: Florence, cursive; 
+	}
+#input_email
+	{
+		margin-left: -1%; 
+		margin-top: 5%; 	
+	}
+#button_f
+	{
+		background-color: white;
+	    border-color: white;
+	} 
+#button_f:hover
+	{
+		background-color: black;
+	    border-color: white;
+	    color: white;
+	}
+.f_text_box
+	{   
+		margin-top: 13%;
+		margin-left: 0%;
+	} 
+.f_text4
+	{
+      display: inline-block;
+      padding-right: 3%;
+	}
+.f_text5
+	{
+		display: inline-block;
+		padding-right: 3%;
+	}
+.f_text6
+	{
+		display: inline-block;
+	}
+#f_text8
+	{
+		margin-top: -10%;
+		text-align: center;
+	}
