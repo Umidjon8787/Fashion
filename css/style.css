@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Old+Standard+TT:wght@700&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+.body1{
+	background-color: #c8cac7;
+}
+.start_head{
+    font-family: 'Lobster', cursive;
+    font-size: 45pt;
+    text-align: center;
+}
+.macbook{
+    width: 70%;
+    height: 73vh;
+    margin:2rem auto;
+    background-image: url(../imgs/macbook.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+/*    Page 2 start */
+
+.navbar.bg-light {
+	background-color: #f3e2b3 !important;
+}
+.navbar.form-control {
+	  border-radius: 4.25rem;
+	}
+
+

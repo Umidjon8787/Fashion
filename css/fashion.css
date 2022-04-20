@@ -1,14 +1,62 @@
-body
-	{
-        
-	}
+/*  first page */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Old+Standard+TT:wght@700&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+.body1{
+	background-color: #c8cac7;
+}
+.body1 a{
+	text-decoration: none;
+	color:black;
+}
+.start_head{
+    font-family: 'Lobster', cursive;
+    font-size: 45pt;
+    text-align: center;
+}
+.macbook{
+	/* display: flex; */
+	position: inherit;
+	box-sizing: border-box;
+    width: 80%;
+    height: 80vh;
+    margin:1rem auto;
+    background-image: url(../img/macbook.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.header_img{
+	flex-direction: column;
+	max-width: 100%;
+}
+.header_img img{
+	margin-left: 18.9%;
+	margin-top:2% ;
+	height: 65px;
+}
+
+.silder_img{
+	flex-direction: column;
+	max-width: 100%;
+}
+.silder_img img{
+	margin-left: 18.9%;
+	height: 253px;
+}
+
+ 
+
+/*  second page start */
 header
 	{   height: 14vh;
 	    width: 100vw;
 	    padding-top: 40px;
 	    border-bottom: 2px solid white;
-		font-family: Apple Chancery, cursive;
-		
+		font-family: Apple Chancery, cursive;	
 	}
 
 .logo
@@ -20,14 +68,13 @@ header
 	}
 .menu
 	{
-        
         padding-left: 42%;
 	}
 #items-menu
 	{
 		margin-left: 2%;
 		text-decoration: none;
-		transition: 2s all ease-in;
+		transition: 1.5s all ease-in;
 	}
 #i_1
 	{
@@ -55,7 +102,7 @@ header
 
 #text1
 	{   
-        text-transform: uppercase;
+       text-transform: uppercase;
        margin-top: -30%;
        margin-left: 65%;
        font-family: Apple Chancery, cursive;
@@ -82,6 +129,9 @@ header
 		color: white;
 		border-radius: 4px;
 		font-family: Florence, cursive;
+		border:0;
+		outline: none;
+		padding:4px;
 	}
 #button2
 	{
@@ -90,6 +140,9 @@ header
 		color: white;
 		border-radius: 4px;
 		font-family: Florence, cursive;
+		border:0;
+		outline: none;
+		padding:4px;
 	}
 #button1:active
 	{
@@ -309,13 +362,16 @@ hr
 		color: white;
 		border-radius: 4px;
 		font-family: Florence, cursive;
+		border:0;
+		outline: none;
+		padding:5px;
 	}
 
 #button3:hover
 	{
         background-color:white;
         color: #004aec;
-        box-shadow: 5PX 5PX #36e24e; 
+        box-shadow: 4px 5px 3px #36e24e; 
         border-color:#004aec; 
 	}
 .FOOTER
@@ -364,12 +420,18 @@ hr
 #input_email
 	{
 		margin-left: -1%; 
-		margin-top: 5%; 	
+		margin-top: 5%;
+		border:0;
+		outline: none;
+		padding:4px; 	
 	}
 #button_f
 	{
 		background-color: white;
 	    border-color: white;
+		border:0;
+		outline: none;
+		padding:4px;
 	} 
 #button_f:hover
 	{
